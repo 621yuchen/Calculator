@@ -14,7 +14,7 @@ alias grun='java -Xmx500M -cp "~/bin/antlr-4.7.2-complete.jar:$CLASSPATH" org.an
 
 ## 通过g4文件生成相关解析文件
 `Calculette.g4` 内部包含四则运算、布尔运算、逻辑运算等语法。是生成词法解析规则和语法解析规则的基础文件。
-`CalculetteMVaP.g4` 文件在`Calculette.g4`文件的基础上，加入了if、while、变量声明和赋值等语法，并生成MVaP代码。~（MVaP语言是基于栈式架构的指令集，在此不多做介绍）~
+`CalculetteMVaP.g4` 文件在`Calculette.g4`文件的基础上，加入了if、while、变量声明和赋值等语法，并生成MVaP代码。（MVaP语言是基于栈式架构的指令集，在此不多做介绍）
 
 1. 运行```antlr4 Calculette.g4```生成相关文件
 2. 运行```javac Calculette*.java```编译生成的相关文件
