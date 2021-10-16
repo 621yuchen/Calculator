@@ -1,7 +1,7 @@
 # Calculator
 __本文只介绍此程序在linux系统下运行方式（Windows下可以使用IDEA）__
 
-__原作者：@Ubln, @621yuchen。 转载请注明出处。__
+__原作者：@UBln, @621yuchen。 转载请注明出处。__
 
 ## antlr4安装及配置
 1. 在主目录下创建一个bin文件夹
